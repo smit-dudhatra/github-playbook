@@ -1,0 +1,23 @@
+# 1. Switch to the branch you want to merge INTO
+git checkout Branch-B
+
+# 2. Pull the latest changes to ensure it's up to date
+git pull origin Branch-B
+
+# 3. Merge the other branch INTO your current branch
+git merge Branch-A
+
+# 4. Push the updated branch to your remote repository
+git push origin Branch-B
+
+  Tell Git that you have successfully fixed the conflicts by adding the modified files to the staging area.
+
+git add .
+
+  Check that all conflicts are resolved and your files are correctly staged.
+
+git status
+
+git commit -m "Merge branch-name and resolve conflicts"
+
+  git push origin <your-current-branch-name>
