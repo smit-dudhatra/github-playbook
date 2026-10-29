@@ -2,9 +2,9 @@ Adding a description makes it much easier to find and apply later:
 
 git stash save "your description here" -u
 
-Pop the most recent stash (apply and remove from stack):
+to apply stash
 
-git stash pop
+git stash apply <"stash-name">
 
 get all stash list on current branch
 
